@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  docker-net-tools:
+    image: pr0n1x/docker-net-tools
+    build:
+      context: .
+      dockerfile: Dockerfile
